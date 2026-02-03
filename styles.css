@@ -30,10 +30,15 @@ body {
     font-family: "CursorGothic", "CursorGothic Fallback", Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    max-width: 1264px;
     margin: 0 auto;
     margin-top: 52px;
+}
+
+main {
+    max-width: 1264px;
 }
 
 a {
@@ -531,7 +536,7 @@ header {
 
 .cta-btn {
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;
     padding: 10px 22px;
     font-size: 16px;
     font-weight: 400;
@@ -540,4 +545,97 @@ header {
     color: var(--color-theme-bg);
     text-align: center;
     width: fit-content;
+}
+
+footer {
+    background-color: var(--color-theme-card-01-hex);
+    width: 100%;
+    position: static;
+    bottom: 0;
+    z-index: -10;
+    padding: 67.4px 20px 30px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-container {
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 101px;
+    gap: 10px;
+}
+
+.footer-col h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: color-mix(in oklab, var(--color-theme-fg) 60%, transparent);
+    padding-bottom: 4.7px;
+}
+
+.footer-col ul {
+    list-style-type: none;
+}
+
+.footer-col ul li {
+    padding: 4.7px 0px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end small {
+    color: color-mix(in oklab, var(--color-theme-fg) 60%, transparent);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-theme {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.theme {
+    background-color: var(--color-theme-card-03-hex);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 18px;
+    padding: 4px 12px 4px 12px;
+}
+
+.language {
+    background-color: var(--color-theme-card-03-hex);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.light-dark {
+    position: absolute;
+    left: 2px;
+    background-color: color-mix(in oklab, var(--color-theme-fg) 10%, transparent);
+    border-radius: 16px;
+    padding: 11px 22px 11px 16px;   
+    z-index: 10;
 }
