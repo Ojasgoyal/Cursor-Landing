@@ -48,6 +48,7 @@ header {
     top: 0;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 5;
 
 }
 
@@ -443,7 +444,7 @@ header {
     width: 800px;
 }
 
-.team-btn{
+.team-btn {
     background-color: var(--color-theme-fg);
     color: var(--color-theme-bg);
     padding: 10px 21.5px 12px 21.5px;
@@ -456,4 +457,59 @@ header {
 
 .team img {
     max-width: 1224px;
+}
+
+.highlights {
+    margin-top: 67.2px;
+    padding: 89.6px 20px;
+    background-color: var(--color-theme-card-hex);
+    color: var(--color-theme-fg);
+    display: flex;
+}
+
+.recent {
+    width: 306px;
+    height: auto;
+}
+
+.recent h2 {
+    position: sticky;
+    top: 64px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.recent-list {
+    width: 612px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 22.4px;
+}
+
+.recent-card {
+    background-color: var(--color-theme-card-02-hex);
+    padding: 13.5px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.recent-desc {
+    color: color-mix(in oklab, var(--color-theme-fg) 60%, transparent);
+    text-wrap: pretty;
+}
+
+.recent-link {
+    text-decoration: none;
+    margin-top: 22.4px;
+    color: var(--color-theme-accent);
+}
+
+.recent-info {
+    color: color-mix(in oklab, var(--color-theme-fg) 60%, transparent);
+    margin-top: 22.4px;
+}
+
+.recent-type {
+    text-transform: capitalize;
 }
