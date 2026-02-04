@@ -25,4 +25,4 @@ I made a desktop-first visual recreation of the landing page of **Cursor** websi
 - Card Background Color: #1B1913
 
 ## Screenshots
-![Cursor Landing Page Screenshot](public/cursor.ojasgoyal.in.png)
+![Cursor Landing Page Screenshot](public/cursorbyojas.png)
