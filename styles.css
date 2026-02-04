@@ -160,6 +160,7 @@ header {
     width: 1264px;
     max-width: 100%;
     height: auto;
+    border-radius: 4px;
 }
 
 .stack-container {
@@ -187,6 +188,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100px;
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent);
     border-radius: 4px;
     padding: 12px 8px;
 }
@@ -211,6 +213,8 @@ header {
     align-items: center;
     padding: 17.5px;
     margin: 0 20px;
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent);
+    border-radius: 4px;
 }
 
 .card-reverse {
@@ -283,6 +287,7 @@ header {
 
 .test-card {
     background-color: var(--color-theme-card-hex);
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent);
     border-radius: 4px;
     padding: 17.5px;
     height: 262px;
@@ -345,7 +350,8 @@ header {
 .frontier-card {
     background-color: var(--color-theme-card-hex);
     padding: 17.5px;
-    border-radius: 5px;
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent);
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -399,6 +405,7 @@ header {
 .log-card {
     background-color: var(--color-theme-card-hex);
     padding: 16px 17.5px 20px 17.5px;
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -462,13 +469,22 @@ header {
 
 .team img {
     max-width: 1224px;
+    border-radius: 4px;
 }
 
 .highlights {
     margin-top: 67.2px;
-    padding: 89.6px 20px;
     background-color: var(--color-theme-card-hex);
     color: var(--color-theme-fg);
+    display: flex;
+    width: 99vw;
+    margin-left: calc(50% - 50vw);
+    justify-content: center;
+}
+
+.highlight-container{
+    padding: 90px 20px;
+    width: 1264px;
     display: flex;
 }
 
@@ -490,13 +506,14 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 22.4px;
 }
 
 .recent-card {
     background-color: var(--color-theme-card-02-hex);
     padding: 13.5px 15px 15px 15px;
     margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid color-mix(in oklab, var(--color-theme-fg) 2.5%, transparent)
 }
 
 .recent-desc {
