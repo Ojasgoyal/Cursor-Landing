@@ -2,6 +2,8 @@
 
 I made a desktop-first visual recreation of the landing page of **Cursor** website. This project is part of the ChaiCode Web Dev Cohort 2026 as an assignment to practice HTML and CSS skills.
 
+***Live Link*** - [Click Here](https://cursor.ojasgoyal.in)
+
 ## Recreated Sections
 1. Header Section
 2. Hero Section
@@ -21,3 +23,6 @@ I made a desktop-first visual recreation of the landing page of **Cursor** websi
 - Background Color: #14120B
 - Links Color: #F54E00
 - Card Background Color: #1B1913
+
+## Screenshots
+![Cursor Landing Page Screenshot](public/cursor.ojasgoyal.in.png)
