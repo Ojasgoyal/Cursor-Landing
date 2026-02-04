@@ -79,9 +79,8 @@ header {
 }
 
 .nav-links {
-    position: absolute;
-    top: 17px;
-    left: 37%;
+    margin-top: -2px;
+    padding-left: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
